@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quan Ly Mang Thai</title>
+    <link rel=" stylesheet" href="DKkham.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="nav">
+        <a href="#" class="logo">ThangLong-RH</a>
+        <ul class="menu">
+            <li><a href="Trangchu.html">Trang chủ</a> </li>
+            <li><a href="DKkham.html">Đăng ký Khám</a> </li>
+            <li><a href="#">Đăng Ký Tiêm</a> </li>
+            <li class="menu_link">
+                <a href="#">Thông tin cá nhân</a> 
+                <ul class="menu_down">
+                    <li><a href="#">Thay đổi thông tin</a> </li>
+                    <li><a href="#">Cài đặt</a> </li>
+                    <li><a href="#">Đăng xuất</a> </li>
+                </ul>
+            </li>       
+        </ul>
+    </div>
+    <div style="max-width: 600px; margin: 0 auto;">
+        <hr>
+        <h3 class="text-center text-uppercase">Đăng Ký Tiêm Chủng</h3>
+        <form action="" method="post" id="submit_form">
+            <div class="form-group">
+                <label for="">Tên Trẻ</label>
+                <input type="text" name="fullname" class="form-control"/>
+                <span class="required"></span>
+            </div>
+            <div class="form-group">
+                <label for="">Tên Người Bảo Hộ</label>
+                <input type="text" name="fullname" class="form-control"/>
+                <span class="required"></span>
+            </div>
+            <div class="form-group">
+                <label for="">Điện Thoại Người Bảo Hộ</label>
+                <input type="tel" name="phone" class="form-control"/>
+                <span class="required"></span>
+            </div>
+            <div class="form-group">
+                <label for="">Địa Chỉ</label>
+                <input type="text" name="address" class="form-control"/>
+                <span class="required"></span>
+            </div>
+            <div class="form-group">
+                <label for="">Lần Tiêm</label>
+                <input type="number" name="insurance" class="form-control"/>
+                <span class="required"></span>
+            </div>
+            <h6>Loại Vaccine</h6>
+            <input list="Vaccine" name="Vaccine">
+                <datalist id="Vaccine">
+                <option value="Viêm gan B sơ sinh">
+                <option value="phòng viêm gan A">
+                <option value="Vắc xin phòng bạch hầu - ho gà - uốn ván">
+                <option value="Vắc xin phòng viêm não mô cầu AC">
+                <option value="Vắc xin phòng cúm">
+                <option value="Vắc xin phòng bệnh viêm não Nhật Bản"></option>
+                <option value="Vắc xin phòng bệnh Sởi - Quai bị - Rubella"></option>
+                <option value="Vắc xin phòng bệnh thủy đậu"></option>
+                <option value=" Vắc xin phòng thương hàn"></option>
+                </datalist>
+                            
+            <div class="form-group">
+                <label for="">Ngày Tiêm Phòng</label>
+                <input type="date" name="date" class="form-control"/>
+                <span class="required"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Đăng Ký Tiêm</button>
+        </form>
+            
+   </div>
+</body>
+</html>

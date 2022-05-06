@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(238, 234, 227);
+    background: url('../qlmangthai/picthai.png');
+}
+*{  
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    color: rgba(12, 11, 11, 0.938);
+    font-family: Arial;
+}
+.nav {
+    background: rgb(95, 80, 139);
+    display: flex;
+    height: 4em;
+    line-height: 4em;
+    justify-content: space-between;
+
+}
+.logo{
+    font-size: 2em;
+    padding-left: 3em;
+    color: rgb(121, 4, 4);
+    font-family: fantasy;
+
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    padding-right: 2.5em;
+    font-size: 17px;
+    color: darkgoldenrod;
+}
+.menu li a:hover {
+    color: rgb(252, 0, 0);
+    transition: 0.5s ease-in-out;
+
+}
+.menu_down{
+    background: rgb(99, 46, 46);
+    width: 180px;
+    height: 13em;
+    margin: 0px auto;
+    position: absolute;
+    top: 63px;
+    right: 150px;
+    display: none;
+}
+.menu_down li{
+    text-align: center;
+    padding: 0px;
+}
+.menu .menu_link:hover .menu_down{
+    display: block;
+}
+.than-to{
+    color: rgb(236, 13, 13);
+    background-color:rgb(141, 88, 88);
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.than-to a{
+    color: rgb(26, 2, 116);
+    font-size: 20px;
+}
+.than a 
+{
+    color: brown;
+}
+.than-to h2 {
+    color: rgb(143, 56, 5);
+}
+.than-to h3 
+{
+    color: rgb(2, 9, 68);
+}
